@@ -1,5 +1,10 @@
 # OpenSUSE: Pro Audio
-Setting up Pro Audio can be tricky, it takes understanding your hardware and workflow but, in this guide ill show you how I setup using OpenSUSE, a few tools, and a common understanding of what I will be doing.
+Setting up Pro Audio can be tricky, it takes understanding your hardware and workflow but, in this guide ill show you how I setup using OpenSUSE Tumbleweed, a few tools, and a common understanding of what I will be doing.
+
+## /!\ Disclaimer
+This is the construction site for the upcoming Leap and Tumbleweed documentation. Please do not consider any of this as official documentation *for now*. Use instead:
+- Generic documentation based on Leap: https://doc.opensuse.org/
+- Tumbleweed specific knowledge-base: https://en.opensuse.org/Portal:Tumbleweed
   
 # Hardware Recommendations:
 - First and foremost if you are planning to do low latency audio/voice recording, it is imperative that you get a sound interface be it an USB, Firewire, or PCI card; your performance will be miles better for that as opposed to using your motherboard's audio. 
