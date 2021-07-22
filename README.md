@@ -12,20 +12,20 @@ For your system & the music applications make sure you run them all in a solid s
 ___
 # Get the codecs:
 Make sure your system is up to date first & installfrom & add <b>Packman Repository</b>:
-  > sudo zypper dup  
-  > sudo zypper in opi  
-  > opi codecs  
+  > `# zypper dup`  
+  > `# zypper in opi`  
+  > `opi codecs`  
 # Add the Geekos DAW Repo (I use the priority of 90, which favours the packages from GeekosDAW repo)
 - This is a crucial step in getting your audio workstation up to speed with plugins and scripts.
-> sudo zypper ar -fp90 https://download.opensuse.org/repositories/home:/geekositalia:/daw/openSUSE_Tumbleweed/ Geekosdaw
+> `# zypper ar -fp90 https://download.opensuse.org/repositories/home:/geekositalia:/daw/openSUSE_Tumbleweed/ Geekosdaw`  
 # PulseAudio / Jack sync
 - Make sure you install the required packages in order to use jack via pulseaudio
 - **Note** that some packages here are a suggestion, but depending on your audio device, this may vary. 
-> sudo zypper in jack pulseaudio-module-jack alsa-plugins-pulse alsa-utils 
-- edit <i>/etc/pulse/default.pa</i>
-- find the lines that contain:
-> #load-module module-alsa-sink  
-> #load-module module-alsa-source device=hw:1,0
+> `# zypper in jack pulseaudio-module-jack alsa-plugins-pulse alsa-utils` 
+- edit /etc/pulse/default.pa
+- find the lines that contain (do not uncomment, leave as is.):
+> `#load-module module-alsa-sink`  
+> `#load-module module-alsa-source device=hw:1,0`
 - underneath said line add:
-> load-module module-jack-sink  
-> load-module module-jack-source
+> `load-module module-jack-sink`  
+> `load-module module-jack-source`
