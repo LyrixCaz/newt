@@ -36,4 +36,4 @@ Make sure your system is up to date first & installfrom & add <b>Packman Reposit
 > `load-module module-jack-source`
 
 ______
-To be continued..
+[To be continued..]
