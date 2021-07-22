@@ -34,3 +34,6 @@ Make sure your system is up to date first & installfrom & add <b>Packman Reposit
 2. underneath said line add:
 > `load-module module-jack-sink`  
 > `load-module module-jack-source`
+
+______
+To be continued..
