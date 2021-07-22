@@ -23,9 +23,9 @@ Make sure your system is up to date first & installfrom & add <b>Packman Reposit
 - **Note** that some packages here are a suggestion, but depending on your audio device, this may vary. 
 > `# zypper in jack pulseaudio-module-jack alsa-plugins-pulse alsa-utils` 
 - edit /etc/pulse/default.pa
-- find the lines that contain (do not uncomment, leave as is.):
+1. find the lines that contain (do not uncomment, leave as is.):
 > `#load-module module-alsa-sink`  
 > `#load-module module-alsa-source device=hw:1,0`
-- underneath said line add:
+2. underneath said line add:
 > `load-module module-jack-sink`  
 > `load-module module-jack-source`
