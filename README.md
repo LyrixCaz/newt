@@ -7,7 +7,7 @@ This is the construction site for the upcoming Leap and Tumbleweed documentation
 - Tumbleweed specific knowledge-base: https://en.opensuse.org/Portal:Tumbleweed
   
 # Hardware Recommendations:
-- First and foremost if you are planning to do low latency audio/voice recording, it is imperative that you get a sound interface be it an USB, Firewire, or PCI card; your performance will be miles better for that as opposed to using your motherboard's audio. 
+- First and foremost if you are planning to do low latency audio/voice recording, it is **imperative** that you get a sound interface be it an USB, Firewire, or PCI card; your performance will be miles better for that as opposed to using your motherboard's audio. 
 # RAM
 First, let us make sure that before we engage in setting up, our system is up to par. I recommend you to have 16gb of ram or more simply because it will give you the liberty of trying out certain plugins that require more memory and it will mostlikely save you from low memory scenarios, though not common, its best to be safe than sorry.
 # SSD
